@@ -1,0 +1,23 @@
+@media only screen and (min-width: 768px) {
+    .navLogo {
+    width: 10%;
+}
+
+.navLogo img {
+    width: 100%;
+}
+#menu{
+    display: block;
+    font-size: 25px;
+}
+.sliderWrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+}
+.sinleSlide {
+    width: 47%;
+}
+}

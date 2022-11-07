@@ -1,0 +1,41 @@
+@media only screen and (min-width: 992px){
+ /* This is header section start */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+ .navLogo {
+    width: 10%;
+}
+
+.navLogo img {
+    width: 100%;
+}
+ #menu{
+    display: none;
+}
+nav.navList ul {
+    display: block;
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+nav.navList ul li a {
+     color: #707070;
+    font-size: 14px;
+    transition-duration: 0.1s;
+}
+nav.navList ul li a:hover {
+    font-weight: 500;
+}
+
+
+
+/* This is header section end */
+/* this is main section start */
+
+
+
+
+/* this is main section end */
+}
