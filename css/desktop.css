@@ -28,14 +28,23 @@ nav.navList ul li a {
 nav.navList ul li a:hover {
     font-weight: 500;
 }
-
-
-
 /* This is header section end */
 /* this is main section start */
+/* This is slider section start */
+#slider{ 
+    background-position: center , left bottom;
+}
+/* This is slider section end */
+/* This is smart phone section start  */
+.smaratPhoneWrap {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.singlePhone{
+    width: 31%;
+}
 
-
-
-
+/* This is smart phone section end*/
 /* this is main section end */
 }
