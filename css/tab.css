@@ -10,6 +10,10 @@
     display: block;
     font-size: 25px;
 }
+/* This is slider section start */
+#slider{ 
+    background-position: center , left bottom;
+}
 .sliderWrap {
     display: flex;
     flex-flow: row wrap;
@@ -20,4 +24,16 @@
 .sinleSlide {
     width: 47%;
 }
+/* This is slider section end */
+/* This is smart phone section start  */
+.smaratPhoneWrap {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.singlePhone{
+    width: 47%;
+}
+
+/* This is smart phone section end  */
 }
