@@ -44,7 +44,17 @@ nav.navList ul li a:hover {
 .singlePhone{
     width: 31%;
 }
-
 /* This is smart phone section end*/
+/* This is Catehory section start */
+.sinleCate {
+    width: 47%;
+}
+.categoryWrap{
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* This is Catehory section end */
 /* this is main section end */
 }

@@ -35,5 +35,14 @@
     width: 47%;
 }
 
+.sinleCate {
+    width: 47%;
+}
+.categoryWrap{
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* This is smart phone section end  */
 }

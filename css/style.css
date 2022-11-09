@@ -22,7 +22,10 @@ section{
     margin: 0 auto;
 }
 /* This is header section start */
-
+section#navBar {
+    background-color: #f5f5f5;
+    padding: 10px 0px;
+}
 .navWrap {
     display: flex;
     justify-content: space-between;
@@ -136,4 +139,52 @@ button#praimaryBtn i{
     font-size: 12px;
 }
 /* This is smart phone section end  */
+/* This is Catehory section start */
+.sinleCate {
+    width: 100%;
+    margin-bottom: 35px;
+}
+.categoryWrap {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.twoCatre {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.oneCate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cate span {
+    font-size: 12px;
+}
+.sinleCate img {
+    width: 100%;
+}
+.cate {
+    width: 30%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px 0px #ddd;
+    border-radius: 40px 5px 20px 5px;
+    margin: 20px 0px;
+    padding: 25px;
+}
+
+.cate img {
+    width: 100%;
+}
+/* This is Catehory section start */
 /* this is main section end */
+small{
+    display: block;
+    text-align: center;
+    padding: 20px 0px;
+}
