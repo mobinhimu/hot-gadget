@@ -1,60 +1,60 @@
-@media only screen and (min-width: 992px){
- /* This is header section start */
-.container{
-    width: 80%;
+@media only screen and (min-width: 992px) {
+  /* This is header section start */
+  .container {
+    max-width: 1100px;
     margin: 0 auto;
-}
- .navLogo {
+  }
+  .navLogo {
     width: 10%;
-}
+  }
 
-.navLogo img {
+  .navLogo img {
     width: 100%;
-}
- #menu{
+  }
+  #menu {
     display: none;
-}
-nav.navList ul {
+  }
+  nav.navList ul {
     display: block;
     display: flex;
     gap: 25px;
     list-style-type: none;
-}
-nav.navList ul li a {
-     color: #707070;
+  }
+  nav.navList ul li a {
+    color: #707070;
     font-size: 14px;
     transition-duration: 0.1s;
-}
-nav.navList ul li a:hover {
+  }
+  nav.navList ul li a:hover {
     font-weight: 500;
-}
-/* This is header section end */
-/* this is main section start */
-/* This is slider section start */
-#slider{ 
-    background-position: center , left bottom;
-}
-/* This is slider section end */
-/* This is smart phone section start  */
-.smaratPhoneWrap {
+  }
+  /* This is header section end */
+  /* this is main section start */
+  /* This is slider section start */
+  #slider {
+    background-position: center, left bottom;
+  }
+  /* This is slider section end */
+  /* This is smart phone section start  */
+  .smartPhoneWrap {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-.singlePhone{
+  }
+  .singlePhone {
     width: 31%;
-}
-/* This is smart phone section end*/
-/* This is Catehory section start */
-.sinleCate {
+  }
+  /* This is smart phone section end*/
+  /* This is category section start */
+  .singleCate {
     width: 47%;
-}
-.categoryWrap{
+  }
+  .categoryWrap {
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-}
+  }
 
-/* This is Catehory section end */
-/* this is main section end */
+  /* This is category section end */
+  /* this is main section end */
 }
